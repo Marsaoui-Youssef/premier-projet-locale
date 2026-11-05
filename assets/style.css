@@ -1,0 +1,138 @@
+
+body{
+    background-color: #E6E6FA;
+    width: 1335px;
+    
+    
+}
+header{
+    margin: 50px;
+    text-align: center;
+    
+}
+nav{
+    float: left;
+    width: 200px;
+    height: 500px;
+    background-color: #B1B6E4;
+    margin-right: 17px;
+}
+article{
+    float:left;
+    width: 750px ;
+    min-height:500px;
+    background:#8791EB;
+    margin-right:17px;
+}
+aside{
+    float: left;
+    width:250px;
+    height:500px;
+    background:#949ACE; 
+}
+
+footer{
+    background-color: #6669C1;
+    height: 100px;
+    float: left;
+    width:100%;
+    margin: 50px;
+}
+article h1,h2{
+    margin-left: 10px;
+}
+aside h1,h2{
+    margin-left: 10px;
+}
+article p{
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+     font-family: Comic sans MS;
+}
+#content{
+margin: 50px;
+}
+#menu {
+margin: 20px;
+padding: 20px 10px 20px 10px;
+list-style: none;
+}
+#menu a {
+display: block;
+height: 1%;
+padding: 6px 10px 6px 10px;
+line-height: 1.5;
+font-size: .9em;
+text-decoration: none;
+}
+#menu a:hover, #menu a:focus {
+background: #8791EB;
+}
+.list{
+    list-style: square;
+}
+.pos{
+    position: relative;
+    left: 50px;
+}
+@media  (max-width:768px){
+    body{
+        width:100%;
+        
+        
+    }
+    img{
+        position: relative;
+        left: 110px;
+    }
+    .item8{
+
+        position: relative;
+        top: 70px;
+        right: 85px;
+    }
+    .item9{
+
+        position: relative;
+        top: 125px;
+        right: 85px;
+    }
+    header h1{
+        display: inline-block;
+        position: relative;
+        left: 50px;
+        top: 50px;
+    }
+    #content{
+        margin: 5%;
+    }
+    nav{
+        text-align: center;
+        width: 100%;
+        margin-right: 20%;
+        height: 180px;
+
+    }
+    article{
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+        overflow-y: auto;
+        margin-right: 10%;
+    }
+    aside{
+        margin-top: 20px;
+        width: 100%;
+        height: 200px;
+        overflow-y: auto;
+    }
+    footer{
+        width: 100%;
+        overflow: auto;
+        
+    }
+    .item10{position: relative;
+        left: -18px;
+    }
+}
